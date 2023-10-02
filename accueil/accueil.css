@@ -1,0 +1,106 @@
+/* Header */
+
+header{
+    border: 1px solid red;
+}
+
+header .navHeader{
+    width: 80px;
+}
+
+header .navHeader img{
+    width: 100%;
+}
+
+header .headIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+
+/* Footer */
+
+footer{
+    border: 1px solid blue;
+    background-color: var(--bgFooter1);
+}
+
+footer .container{
+    margin-top: 5%;
+}
+
+footer .container h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--titreFooter);
+}
+
+footer .contactus hr{
+    width: 50px;
+    background: black !important;
+    height: 4px;
+}
+
+footer .contactus .address{
+    display: flex;
+}
+
+.contactus .address .left{
+    width: 40%;
+    font-weight: bold;
+    color: #5c5e60;
+}
+
+.contactus .address .right{
+    width: 60%;
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 .traitCol8{
+    width: 25%;
+    background-color: rgb(246, 135, 18);
+}
+
+.contactus1 ul{
+    padding: 0;
+}
+
+.contactus1 ul li a{
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 form input{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.contactus1 form button{
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer .copyRight{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer .copyLeft{
+    padding-top: 10px;
+}
+
+.copyRight img{
+    margin-left: 10px;
+}
+
+footer .footerCopy{
+    background-color: #ffffffba;
+}
+
+/* Footer */
