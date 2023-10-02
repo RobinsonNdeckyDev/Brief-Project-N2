@@ -1,0 +1,20 @@
+:root{
+    --bgFooter1: #f6f6f6;
+    --trait: #d59a92;
+    --titreFooter: #4e474e;
+    --footerCopy: #eeeeee;
+    --textFooter: #81858b;
+    --marron0: #c7a062;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
