@@ -28,7 +28,177 @@
     </header>
 
     <!-- main -->
-    <main></main>
+    <main>
+        <div class="image container-fluid p-0 ">
+            <img src="../public/images/bg/1.jpg" alt="" style="width: 100%; background-color: rgba(0, 0, 0, 0.594);" class="img-responsive">
+            
+            <div class="couleurimage">
+                <h1 class="titre">SHOPPING CART</h1>
+                <a href="#">HOME / SHOPPING CART</a href="#">
+            </div>
+        </div>
+        <div class="containerpaiement">
+            <div class="containertop ">
+                <div class=" containertopitem">SHOPPING CART</div>
+                <div class="containertopitem">WISHLIST</div>
+                <div class=" containertopitem" id="active">CHECK OUT</div>
+                <div class="containertopitem"> ORDER COMPLETE</div>
+
+            </div>
+            <div class="containermiddle row">
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">BILLIN</span>G DETAILS </h3>
+                    <form action="" class="was-validated">
+                        <input type="text" placeholder="Your name here..." >
+                        <input type="email" placeholder="Email address here..." >
+                        <input type="tel" placeholder="Phone here..." >
+                        <input type="text" placeholder="Company name here..." >
+                        <select >
+                            <option value="Country">Country</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="France">Canada</option>
+                            <option value="USA">USA</option>
+                        </select>
+                        <select >
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                        </select>
+                        <select >
+                            <option value="Town/City">Town/City</option>
+                            <option value="Town/City">Dakar</option>
+                            <option value="Town/City">Montreal</option>
+                            <option value="Town/City">Californie</option>
+                        </select>
+                        <textarea placeholder="Your address here..."></textarea>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">SHIP T</span>O DIFFERENT ADDRESS </h3>
+                <form action="" class="was-validated">
+                    <input type="text" placeholder="Your name here..." >
+                    <input type="email" placeholder="Email address here..." >
+                    <input type="tel" placeholder="Phone here..." >
+                    <input type="text" placeholder="Company name here..." >
+                    <select >
+                        <option value="Country">Country</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="France">Canada</option>
+                        <option value="USA">USA</option>
+                    </select>
+                    <select >
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                    </select>
+                    <select >
+                        <option value="Town/City">Town/City</option>
+                        <option value="Town/City">Dakar</option>
+                        <option value="Town/City">Montreal</option>
+                        <option value="Town/City">Californie</option>
+                    </select>
+                    <textarea placeholder="Your address here..."></textarea>
+                </form>
+                </div>
+                
+            </div>
+            <div class="containerbottom row">
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">OUR O</span>RDER </h3>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">PRODUCT</th>
+                            <th scope="col">TOTAL</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Dummy Product Name x 2</th>
+                            <td>$86.00</td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Dummy Product Name x 1</th>
+                            <td>$69.00</td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Cart Subtotal</th>
+                            <td colspan="2">$155.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Shipping and Handing</th>
+                            <td colspan="2">$15.00
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Vat</th>
+                            <td colspan="2">$00.00
+                            </td>
+                          </tr>
+                          <tr id="total">
+                            <th scope="row">Order Total</th>
+                            <td colspan="2">$170.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="col-12 col-md-6 containerbottomleft">
+                    <h3> <span class="titrepaiement">PAYM</span>ENT METHOD </h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                DIRECT BANK TRANSFER
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                CHEQUE PAYMENT
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                PAYPAL
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Pay via PayPal; you can pay with your credit card if you don�t have a PayPal account
+                                <div class="col-12 col-md-6 copyRight">
+                                    <img src="../public/images/payment/1.png" alt="">
+                                    <img src="../public/images/payment/2.png" alt="">
+                                    <img src="../public/images/payment/3.png" alt="">
+                                    <img src="../public/images/payment/4.png" alt="">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="boutonplaceorder">PLACE ORDER</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
 
     <!-- footer -->
     <footer>
