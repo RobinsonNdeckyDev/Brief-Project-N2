@@ -13,16 +13,34 @@
 
 <body>
     <!-- header -->
-    <header class="mb-3">
+    <header class="mb-3 fixed-top">
         <div class="container-fluid d-flex justify-content-between align-content-center px-5">
             <div class="navBurger headIcon">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid hamburger fa-bars"></i>
             </div>
+    
+            <div class="navigation mobile-menu">
+                <div class="navImg">
+                    <a href="../accueil/accueil.html"><img src="../public/images/logo/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li class=""><a href="">Accueil</a></li>
+                        <li><a href="">A propos</a></li>
+                        <li><a href="">Catégories et Accessoires</a></li>
+                        <li class="active"><a href="">Produit</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
             <div class="navHeader">
-                <img src="../public/images/logo/logo.png" alt="" class="logo">
+                <a href="../accueil/accueil.html"><img src="../public/images/logo/logo.png" alt="" class="logo"></a>
             </div>
             <div class="navShop headIcon">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="../panier1/panier1.html"><i class="fa-solid fa-cart-shopping"></i><span
+                        class="badge text-bg-danger">2</span></a>
             </div>
         </div>
     </header>
@@ -198,7 +216,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 contactus">
+                <div class="col-12 col-sm-12 col-lg-4 contactus">
                     <h4>CONTACT US</h4>
                     <hr>
                     <div class="address">
@@ -209,7 +227,7 @@
                             <p>28 Green Tower, Street Name, <br> New York City, USA</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Cell-Phone:</p>
@@ -218,7 +236,7 @@
                             <p>012345 - 123456789</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Email :</p>
@@ -228,10 +246,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-8 contactus1">
+    
+                <div class="col-12 col-sm-12 col-lg-8 contactus1">
                     <div class="row">
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>ACCOUNTS</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -242,8 +260,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Check Out</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-3">
+    
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>SHIPPING</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -254,8 +272,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Specials</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-6">
+    
+                        <div class="col-12 col-sm-12 col-lg-5">
                             <h4>EMAIL NEWSLETTERS</h4>
                             <hr class="traitCol8">
                             <form action="">
@@ -263,14 +281,13 @@
                                 <button type="button" class="btn">SUBSCRIBE</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="footerCopy">
             <div class="container">
-                <div class="row border d-flex justify-content-between">
+                <div class="foot row d-flex justify-content-between">
                     <div class="col-12 col-md-6 copyLeft">
                         <p>CodeCarnival 2021. All Rights Reserved.</p>
                     </div>
