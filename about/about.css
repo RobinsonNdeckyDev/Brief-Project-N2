@@ -1,0 +1,274 @@
+
+/* Header */
+
+header{
+    border: 1px solid red;
+}
+
+header .navHeader{
+    width: 80px;
+}
+
+header .navHeader img{
+    width: 100%;
+}
+
+header .headIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+/* main */
+body{
+    background-color: #F6F6F6;
+}
+.main{
+    height: 1400px;
+    }
+    .couleurimage{
+        position: relative;
+        top: -197px;
+        width: 100%;
+        height: 35vh;
+        border: 1px solid #000;
+        background-color: rgba(0, 0, 0, 0.573); 
+    }
+    .image{
+        color: white;
+    }
+    .image .titre{
+        position: relative;
+        top: 39%;
+        left: 45%;
+        font-weight: bold;
+        margin-right: 50%;
+    }
+    .image a{
+        color: white;
+        position: relative;
+        top: 52%;
+        left: 3%;
+    }
+    .image img{
+    margin-top: -16px;
+    }
+    .main .container{
+        background-color: #F6F6F6 ;
+        /* border: 1px solid red; */
+        margin-top: -9%;
+    }
+    .container .containerabout{
+        background-color: white;
+        height: 85vh;
+    }
+    .texteabout{
+        /* border: 1px solid green; */
+        width: 65%;
+        height: 60vh;
+        position: relative;
+        top: -399px;
+        left: 33%;
+        padding-left: 5%;
+        padding-top: 2%;
+        background-color: #F6F6F6 ;
+    }
+    .texteabout .abouttitre{
+        text-decoration: underline 2px solid rgba(0, 0, 0, 0.253);
+        text-underline-offset: 5px;
+    }
+    .texteabout h4{
+        font-size: 20px;
+        margin-bottom: 2%;
+        color: rgba(0, 0, 0, 0.751);
+    }
+    .texteabout  p{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.568);
+        padding: 5% auto;
+        
+    }
+    .container{
+        margin-top: -9%;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .container h3{
+        margin-top: 15%;
+        text-align: center;
+    }
+    .container .soulignement{
+        margin-left: 46%;
+        border: 2px solid #C97066;
+        width: 5%;
+        margin-bottom: 3%;
+    }
+    .container .profilimage{
+        margin: 7% auto;
+    }
+    .container .nom{
+        margin-left: 20%;
+        color: rgba(0, 0, 0, 0.662);
+    }
+    .container .job{
+        margin-left: 34%;
+        color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+
+    }
+    .container .job1{
+        margin-left: 29%;
+        color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+    }
+    .container .job2{
+        color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+        margin-left: 26%;
+    }
+    .container .job3{
+        color: rgba(0, 0, 0, 0.445);
+        font-size: 12px;
+        margin-left: 25%;
+
+    }
+    .container .desc{
+        color:rgba(0, 0, 0, 0.445) ;
+        font-size: 14px;
+    }
+    .container .icone{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        /* border: 1px solid #ccc; */
+    }
+    .container .icone li i:hover{
+        color:#C8A165 !important ;
+    }
+    .container .card{
+        border: none;
+    }
+    .container .card:hover{
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    @media (max-width: 768px){
+      
+        .main{
+            height: 2390px;
+          
+        }
+        .container .containerabout{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .container .containerabout{
+            border: 1px solid red;
+            height: 55vh;
+            margin-bottom: 75%;
+        }
+        .containerglobal .container:nth-child(3){
+            display: block;  
+        }
+        .container .card{
+            margin-bottom: 5%;
+            width: 98% !important;
+        }
+        footer{
+            margin-top: 100%;
+        }
+
+    }
+    @media (max-width: 1230px){
+       
+       
+            
+        }
+    
+
+
+/* main */
+
+/* Footer */
+
+footer{
+    border: 1px solid blue;
+    background-color: var(--bgFooter1);
+}
+
+footer .container{
+    margin-top: 5%;
+}
+
+footer .container h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--titreFooter);
+}
+
+footer .contactus hr{
+    width: 50px;
+    background: black !important;
+    height: 4px;
+}
+
+footer .contactus .address{
+    display: flex;
+}
+
+.contactus .address .left{
+    width: 40%;
+    font-weight: bold;
+    color: #5c5e60;
+}
+
+.contactus .address .right{
+    width: 60%;
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 .traitCol8{
+    width: 25%;
+    background-color: rgb(246, 135, 18);
+}
+
+.contactus1 ul{
+    padding: 0;
+}
+
+.contactus1 ul li a{
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 form input{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.contactus1 form button{
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer .copyRight{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer .copyLeft{
+    padding-top: 10px;
+}
+
+.copyRight img{
+    margin-left: 10px;
+}
+
+footer .footerCopy{
+    background-color: #ffffffba;
+}
+
+/* Footer */
