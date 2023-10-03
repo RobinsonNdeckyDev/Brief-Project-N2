@@ -21,6 +21,358 @@ header .headIcon {
 /* Header */
 
 
+
+/* main */
+
+main{
+    background-color: #e3e1e1;
+}
+
+main .containerMain{
+    border: 1px solid red;
+    padding: 5% 0;
+}
+
+main .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content .categorieLeft{
+    width: 32%;
+}
+
+main .content .categorieLeft .card{
+    background-color: white;
+}
+
+.content .categorieLeft .seacrhleft{
+    margin-bottom: 8%;
+    position: relative;
+}
+
+.categorieLeft .seacrhleft .seacrhInp{
+    width: 100%;
+}
+
+.categorieLeft .seacrhleft .searcIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+}
+
+.categorieLeft .categories{
+    margin-bottom: 8%;
+}
+
+.categorieLeft .categories h3{
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .categories li a{
+    color: #838d9a;
+    font-weight: 600;
+}
+
+.categorieLeft .categories .fourniture li a{
+    font-size: 14px;
+    font-weight: lighter !important;
+}
+
+.categorieLeft .categories .active{
+    color: rgb(232, 115, 32);
+}
+
+.categorieLeft .price{
+    margin-bottom: 8%;
+}
+
+.categorieLeft .price h3{
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .price .line{
+    padding: 10px 30px;
+    margin-top: 8%;
+}
+
+.categorieLeft .price .ligne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorieLeft .price .ligne hr{
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.categorieLeft .price .line p{
+    color: #838d9a;
+}
+
+.categorieLeft .price .line p span{
+    color: #333c48;
+    font-weight: bold;
+}
+
+.categorieLeft .price .ligne i{
+    color: rgb(233, 84, 20);
+}
+
+.categorieLeft .price .ligne .marronhr{
+    background-color: rgb(242, 79, 9) !important;
+}
+
+.categorieLeft .price .ligne .marronhr1{
+    background-color: gray;
+}
+
+.categorieLeft .color{
+    margin-bottom: 8%;
+}
+
+.categorieLeft .color h3{
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .color .couleurs{
+    padding: 10px 30px;
+}
+
+.categorieLeft .color .colors{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorieLeft .colorLeft{
+    padding: 0;
+}
+
+.categorieLeft .colorLeft .carre{
+    margin-right: 15px;
+}
+
+.categorieLeft .colorLeft .un {
+    color: #ffa17b;
+}
+
+.categorieLeft .colorLeft .deux{
+    color: #e9967a;
+}
+
+.categorieLeft .colorLeft .troix {
+    color: #fe5757;
+}
+
+.categorieLeft .colorLeft .quatre {
+    color: #1cb6ef;
+}
+
+.categorieLeft .colorLeft .cing {
+    color: #01eeb3;
+}
+
+.categorieLeft .colorLeft .six {
+    color: #8dc63f;
+}
+
+.categorieLeft .colorLeft .seven {
+    color: #c38b4b;
+}
+
+.categorieLeft .colors{
+    color: #333c48;
+    margin-bottom: 2%;
+}
+
+.categorieLeft .size{
+    margin-bottom: 8%;
+}
+
+.categorieLeft .size h3{
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .size .containerSize{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorieLeft .size .containerSize span{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 1%;
+    color: #333c48;
+    font-weight: 600;
+}
+
+.categorieLeft .photo{
+    padding: 4%;
+}
+
+.categorieLeft .photo img{
+    width: 100%;
+    height: 285px;
+}
+
+main .content .categorieRight{
+    width: 65%;
+}
+
+/* .categorieRight{
+    border: 1px solid red;
+
+} */
+
+.categorieRight .carte{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    margin-bottom: 36px;
+}
+
+.categorieRight .carte a{
+    color: #131c28;
+}
+
+.categorieRight .carte .active{
+    color: #e87320;
+}
+
+.categorieRight .carte i{
+    font-size: 18px;
+}
+
+
+.categorieRight .accessoires{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    row-gap: 30px;
+}
+
+.categorieRight .accessoires .cardAccess{
+    background-color: white;
+    padding: 5%;
+}
+
+.categorieRight .cardAccess .imgAccess{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.categorieRight .cardAccess .imgDetails{
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.categorieRight .imgDetails .new{
+    background-color: #e87320;
+    color: white;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.categorieRight .imgDetails .detRight span{
+    font-size: 14px;
+    color: #e87320;
+    font-weight: 700;
+}
+
+.categorieRight .cardAccess h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categorieRight .cardAccess .accessStars{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.categorieRight .cardAccess .accessStars i{
+    margin: 0 5px;
+    color: #e87320;
+}
+
+.categorieRight .cardAccess .accessIcons{
+    display: flex;
+    padding: 8px 15px;
+    justify-content: space-between;
+    background-color: #e8e8e8;
+    margin-bottom: 8%;
+}
+
+.categorieRight .cardAccess .accessIcons span{
+    
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.categorieRight .cardAccess .accessIcons .bar{
+    border-right: 2px solid #131c28;
+}
+
+.categorieRight .cardAccess .accessIcons i{
+    font-size: 18px;
+}
+
+.categorieRight .navigation{
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.categorieRight .navigation ul{
+    margin: 0;
+    padding: 8px;
+}
+
+.categorieRight .navigation ul li{
+    border: none;
+}
+
+.categorieRight .navigation li .page-link{
+    border: none;
+    color: #131c28;
+}
+
+
 /* Footer */
 
 footer {
