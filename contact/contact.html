@@ -8,33 +8,133 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Accueil</title>
+    <title>Contact US</title>
 </head>
 
 <body>
     <!-- header -->
-    <header class="mb-3">
+    <header class="mb-3 fixed-top">
         <div class="container-fluid d-flex justify-content-between align-content-center px-5">
             <div class="navBurger headIcon">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid hamburger fa-bars"></i>
             </div>
+    
+            <div class="navigation mobile-menu">
+                <div class="navImg">
+                    <a href="../accueil/accueil1.html"><img src="../public/images/logo/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../accueil/accueil1.html">Accueil</a></li>
+                        <li><a href="../about/about.html">A propos</a></li>
+                        <li><a href="../categories-1/categorie.html">Catégories et Accessoires</a>
+                            <!-- <ul class="categ">
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                </ul> -->
+                        </li>
+                        <li><a href="../produit/produit.html">Produit</a></li>
+                        <li><a href="../blog/blog.html">Blog</a></li>
+                        <li class="active"><a href="../contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
             <div class="navHeader">
-                <img src="../public/images/logo/logo.png" alt="" class="logo">
+                <a href="../accueil/accueil1.html"><img src="../public/images/logo/logo.png" alt="" class="logo"></a>
             </div>
             <div class="navShop headIcon">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="../panier1/panier1.html"><i class="fa-solid fa-cart-shopping"></i><span
+                        class="badge text-bg-danger">2</span></a>
             </div>
         </div>
     </header>
 
     <!-- main -->
-    <main></main>
+    <div class="gree">
+    <main>
+            <div class="img">
+                <div class="headerContact">
+                    <H2 class="Contactus">CONTACT US</H2>
+                    <p class="HOMECONTACTUS"> &nbsp;&nbsp;HOME /&nbsp;CONTACT US</p>
+                </div>
+                </div>
+
+                <div  class="blanc">
+                  <section class="other-contact">
+            <form action="">
+                <div class="deuxiéme">
+                <div class="droite">
+                    <i class="fa-solid fa-square-phone"></i>
+                </div>
+                <div class="gauche">
+                    <p>+880 1234 12345 <br>+880 1234 12345</p>
+                    
+                </div>
+            </div>
+            <div class="deuxiéme">
+                <div class="droite">
+                    <i class="fa-solid fa-envelope" style="color: #ccced1;"></i>
+                </div>
+                <div class="gauche">
+                    <p>company-email@gmail.com <br>Your-email@gmail.com </p>
+                    
+                </div>
+            </div>
+                <div class="Divmsg">
+              <p class="MSG">SEND MESSAGE </p>
+              <hr class="trait">
+            </div>
+            
+                <input type="text" name="" id="one" placeholder="Your Name hear">
+                <input type="text" name="" id="one"placeholder="Your email here...">
+                <textarea name="" id="one" cols="20" rows="2" placeholder=" Your comment here..."></textarea>
+                 <!-- <button type="submit" class="btn btn-primary mb-2">SUBMIT MESSAGE"</button>
+</form> -->
+                <input type="submit" cols="20" rows="2"  value="SUBMIT MESSAGE" class="last-input">
+            </form>
+            <div class="carte">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= dakar auchan yoff&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://connectionsgame.org/"></a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 150%;
+                            height: 600px;
+                            padding-top: 40PX;
+                        }
+                
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none ;
+                            width: 100%;
+                            height: 100%;
+                        }
+                
+                        .gmap_iframe {
+                            height: 800px !important;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        </section>
+            </div>
+    </main>
+    
+    <!-- <div class="basgree">
+
+    </div> -->
 
     <!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 contactus">
+                <div class="col-12 col-sm-12 col-lg-4 contactus">
                     <h4>CONTACT US</h4>
                     <hr>
                     <div class="address">
@@ -45,7 +145,7 @@
                             <p>28 Green Tower, Street Name, <br> New York City, USA</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Cell-Phone:</p>
@@ -54,7 +154,7 @@
                             <p>012345 - 123456789</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Email :</p>
@@ -64,10 +164,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-8 contactus1">
+    
+                <div class="col-12 col-sm-12 col-lg-8 contactus1">
                     <div class="row">
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>ACCOUNTS</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -78,8 +178,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Check Out</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-3">
+    
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>SHIPPING</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -90,8 +190,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Specials</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-6">
+    
+                        <div class="col-12 col-sm-12 col-lg-5">
                             <h4>EMAIL NEWSLETTERS</h4>
                             <hr class="traitCol8">
                             <form action="">
@@ -99,14 +199,13 @@
                                 <button type="button" class="btn">SUBSCRIBE</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="footerCopy">
             <div class="container">
-                <div class="row border d-flex justify-content-between">
+                <div class="foot row d-flex justify-content-between">
                     <div class="col-12 col-md-6 copyLeft">
                         <p>CodeCarnival 2021. All Rights Reserved.</p>
                     </div>
