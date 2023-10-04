@@ -196,18 +196,30 @@ margin-top: -16px;
     height: 8%;
     margin-bottom: 5%;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
     .image .titre{
-        margin-top: 8%;
+        margin-top: -3%;
+        font-size: 16px;
     }
-    .image a{
-        color: black;
+    .couleurimage a{
+      font-size: 10px;
+    }
+    .couleurimage{
+        height: 9vh;
+        margin-top: 35%;
     }
     .containerpaiement .containertop{
+        margin-top: -42%;
         display: block;
     }
     .containerpaiement .containertop .containertopitem{
         margin-bottom: 2%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    .couleurimage{
+        height: 15vh;
+        margin-top: 10%;
     }
 }
 /* MAIN */
