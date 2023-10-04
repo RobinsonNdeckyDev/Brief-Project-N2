@@ -494,10 +494,35 @@ footer .footerCopy {
 /* Footer */
 
 
-/* media queries */
+/* responsive */
 
-@media(max-width: 900px){
-    .footerCopy .copyLeft p {
+@media  screen and (max-width: 820px){
+    /* main .container-fluid .container {
+            display: bloc;
+           
+        } */
+
+        main  .container{
+            /* display: block; */
+            flex-direction: column-reverse;
+
+        }
+        .reseauxsociaux, .reseauxsociaux1{
+            display: none;
+        }
+        .bannerleft{
+            display: flex;
+        }
+                .containergrid {
+                    display: grid;
+                    grid-template-columns: auto auto ;
+                }
+          .blog .container {
+            display: grid;
+            grid-template-columns: auto auto ;
+          } 
+  
+        .footerCopy .copyLeft p {
         text-align: center;
     }
     
@@ -506,4 +531,3 @@ footer .footerCopy {
         justify-content: center;
         margin-bottom: 10px;
     }
-}
