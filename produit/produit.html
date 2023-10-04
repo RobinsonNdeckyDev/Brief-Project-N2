@@ -6,35 +6,495 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="produit.css">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Accueil</title>
+    <title>Produit</title>
 </head>
 
 <body>
     <!-- header -->
-    <header class="mb-3">
+    <header class="mb-3 fixed-top">
         <div class="container-fluid d-flex justify-content-between align-content-center px-5">
             <div class="navBurger headIcon">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid hamburger fa-bars"></i>
             </div>
+
+            <div class="navigation mobile-menu">
+                <div class="navImg">
+                    <a href="../accueil/accueil.html"><img src="../public/images/logo/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li class=""><a href="">Accueil</a></li>
+                        <li><a href="">A propos</a></li>
+                        <li><a href="">Catégories et Accessoires</a></li>
+                        <li class="active"><a href="">Produit</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="navHeader">
-                <img src="../public/images/logo/logo.png" alt="" class="logo">
+                <a href="../accueil/accueil.html"><img src="../public/images/logo/logo.png" alt="" class="logo"></a>
             </div>
             <div class="navShop headIcon">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="../panier1/panier1.html"><i class="fa-solid fa-cart-shopping"></i><span class="badge text-bg-danger">2</span></a>
             </div>
         </div>
     </header>
 
     <!-- main -->
-    <main></main>
+    <main class="  bg-light">
+        <!-- <img src="../public/images/bg/1.jpg" width="100%" alt=""> -->
+    
+        <div class="baniere">
+            <div class="baniere_text">
+                <h1>SHOP</h1>
+            </div>
+        </div>
+    
+        <div class="container ">
+    
+            <div class="entete bg-white mt-0 d-flex justify-content-between p-4 m-1 ">
+    
+                <div class="lien justify-content-between">
+                    <a href="#">Catégorie </a> &nbsp;
+                    <a href="#">Price </a> &nbsp;
+                    <a href="#">Color </a> &nbsp;
+                    <a href="#">Size </a>
+                </div>
+    
+                <div class="entete_right">
+                    <p class="fs-5 showing text-secondary"> Showing 01-09 of 17 Results</p>
+                </div>
+    
+            </div>
+    
+            <div class="cartes bg-light ">
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/6.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/3.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder bg-danger">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/7.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 fw-bolder"></p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/10.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/8.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 fw-bolder"></p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/11.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/2.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/1.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/12.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/12.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-1 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/12.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+                <div class="carte text-center bg-white mb-5 mt-4 border">
+    
+                    <img class="mt-3" width="90%" height="300px" src="../public/images/product/12.jpg" alt="">
+    
+                    <div class="superieur d-flex justify-content-around">
+                        <p class="fs-5 p-2 new fw-bolder">New</p>
+                        <p class="text-danger fs-4 fw-bolder">$5620</p>
+    
+                    </div>
+    
+                    <p class="fs-5 fw-bold">DUMMY PRODUCT NAME</p>
+    
+                    <div class="icones">
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                        <i class="fa-solid fa-star-half-stroke" style="color: #a30505;"></i>
+                    </div>
+    
+                    <div class="last_icones mt-3 bg-light mb-3 p-3 fs-5">
+                        <i class="fa-regular fa-heart" style="color: #4b4a4a;"></i>&nbsp; &nbsp;<span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-magnifying-glass" style="color: #606162;"> &nbsp; &nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-rotate" style="color: #606162;"></i> &nbsp;&nbsp; </i> <span
+                            class="fw-bolder fs-5 text-secondary">|</span> &nbsp; &nbsp;
+    
+                        <i class="fa-solid fa-cart-plus" style="color: #606162;"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+    
+    
+        </div>
+    
+    </main>
 
     <!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 contactus">
+                <div class="col-12 col-sm-12 col-lg-4 contactus">
                     <h4>CONTACT US</h4>
                     <hr>
                     <div class="address">
@@ -42,7 +502,7 @@
                             <p>Address:</p>
                         </div>
                         <div class="right">
-                            <p>28 Green Tower, Street Name, <br> New York City, USA</p>
+                            <p>28 Green Tower, Street Name, &nbsp; New York City, USA</p>
                         </div>
                     </div>
 
@@ -65,9 +525,9 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-8 contactus1">
+                <div class="col-12 col-sm-12 col-lg-8 contactus1">
                     <div class="row">
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>ACCOUNTS</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -79,7 +539,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>SHIPPING</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -91,7 +551,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-sm-12 col-lg-5">
                             <h4>EMAIL NEWSLETTERS</h4>
                             <hr class="traitCol8">
                             <form action="">
@@ -99,14 +559,13 @@
                                 <button type="button" class="btn">SUBSCRIBE</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="footerCopy">
             <div class="container">
-                <div class="row border d-flex justify-content-between">
+                <div class="foot row d-flex justify-content-between">
                     <div class="col-12 col-md-6 copyLeft">
                         <p>CodeCarnival 2021. All Rights Reserved.</p>
                     </div>
