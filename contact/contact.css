@@ -1,8 +1,8 @@
 /* Header */
 
-header {
+/* header {
     border: 1px solid red;
-}
+} */
 
 header .navHeader {
     width: 80px;
@@ -24,10 +24,63 @@ header .headIcon {
 /* Footer */
 
 footer {
-    border: 1px solid blue;
+    
+    background-color: #cfc3c35b;
+}
+.gree{
     background-color: var(--bgFooter1);
+
 }
 
+/* .basgree{
+    background-color: #cfc3c35b;
+    border: #b7462d solid 1px; 
+    height: 50%;
+} */
+.blanc{
+    background-color: #FFFFFF;
+    
+} 
+.MSG{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 98px;
+}
+.trait{
+    color: #9a9ea0;
+    width: 30px;
+    padding-top: 5PX;
+}
+.deuxiéme{
+    display: flex;
+    color: #9a9ea0;
+    padding-top: 12PX;
+    padding-left: 2px;
+    padding-top: 10%;
+    display: block;
+}
+    .gauche{
+        padding-left: 15px;
+       
+    }
+    .fa-solid fa-square-phone{
+        padding-left: 8px;
+    }
+    .droite{
+        padding-top: 15PX;
+        background-color: #e5edf2;width: 30px; height: 30px ;;padding-top: 5PX;padding-left: 5PX;
+      
+    }
+    .fa-solid {
+        /* border-radius: 95%; */
+        /* min-height: 10%; */
+
+    }
+
+/* .copyright
+{
+    background-color: var(--bgFooter1);  
+} */
 footer .container {
     margin-top: 5%;
 }
@@ -104,3 +157,207 @@ footer .footerCopy {
 }
 
 /* Footer */
+/* .divheadfondgris{
+    border:solid hsla(150, 2%, 80%, 0.751);
+    height: 100%;
+   
+} */
+.Contactus{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+}
+.img{
+    background-image:url(../public/images/bg/1.jpg ) ;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* size: 1000%; */
+    padding-top: 1%;
+    padding-bottom: 5%;
+   /* position: relative; */
+   
+
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* max-height: max-content; */
+}
+
+.HOMECONTACTUS{
+    color: white;
+    font-size: 17px;
+    /* padding-top: 25%; */
+    
+    
+    
+}
+.deuxiéme i{
+    margin-bottom: 30px;
+
+}
+
+
+
+.Enveloppegris{
+    background: hsla(150, 2%, 80%, 0.751);
+    
+}
+.Containerblanc{
+    background-color: #f1f1ed;
+    border:solid 1px rgb(0, 255, 179);
+}
+
+#contact {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.headerContact{
+    /* border: 1px solid red; */
+}
+
+.title-h3 {
+    color: #9a9ea0;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* 
+.title-p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #100F39;
+    margin-top: -12px;
+} */
+
+.traits {
+    display: grid;
+    grid-template-columns: 70px 30px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.trait-left,
+.trait-right {
+    border-top: 4px solid #b9bfc2;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 3px;
+}
+
+.contact-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.box-items {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.carre {
+    width: 42px;
+    height: 42px;
+    background-color: #959da0;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+.carte {
+    width: 50%;
+}
+.content-ele {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 0;
+}
+.content-ele a {
+    /* margin-top: -16px; */
+    color: var(--base-color);
+}
+.content-ele h4 {
+    margin-top: 0;
+    font-weight: 400;
+
+}
+
+.contact-box i {
+    color: white;
+}
+
+.other-contact {
+    width: 60%;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 991px) {
+    #contact {
+        width: 90%;
+    }
+
+    .contact-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .other-contact {
+        flex-direction: column;
+    }
+    .other-contact :first-child, 
+    .other-contact :last-child{
+        width: 100%;
+    }
+
+    .other-contact {
+        width: 90%;
+    }
+
+}
+.other-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.form-top {
+    display: flex;
+    gap: 10px;
+}
+
+
+.other-contact form textarea,
+.other-contact form input {
+    background-color: #EEF9FF;
+    border: 0px solid transparent;
+    padding: 10px;
+}
+
+.other-contact form input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+.other-contact form .last-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b7462d;
+    color: white;
+    width: 50%;
+     /* padding-bottom: 50%;
+     */
+}
+#one{
+    background-color: #cfd5d7e7;
+}
+.last-input{
+    width: 5%;
+
+}
+.other-contact{
+    margin-bottom: 0%;
+}                                                                                                                          
