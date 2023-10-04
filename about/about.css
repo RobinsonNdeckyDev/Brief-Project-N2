@@ -157,8 +157,12 @@ body{
         .main{
             height: 2790px; 
         }
+        .couleurimage{
+            height: 15vh;
+            margin-top: 32%;
+        }
        .couleurimage .titre{
-        margin-top: 15%;
+        margin-top: 5%;
        }
         .container .containerabout{
             /* border: 1px solid red; */
@@ -178,6 +182,11 @@ body{
             margin-bottom: 20%;
             width: 98% !important;
         }
+        .containerabout{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+        }
         footer{
             margin-top: 100%;
         }
@@ -187,6 +196,10 @@ body{
        .main{
         height: 2200px;
         border: 1px solid red;
+       }
+       .couleurimage{
+        height: 20vh;
+        margin-top: 8.5%;
        }
        .container .containerabout{
         /* border: 1px solid red; */
