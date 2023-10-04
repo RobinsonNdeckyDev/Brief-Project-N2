@@ -1,0 +1,626 @@
+/* Header */
+
+header {
+    background-color: white;
+}
+
+header .navHeader {
+    width: 80px;
+}
+
+header .navBurger i {
+    cursor: pointer;
+}
+
+header .navHeader img {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+header .headIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navShop a {
+    color: #131c28;
+}
+
+header .navShop span {
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 2px;
+    bottom: 10px;
+}
+
+/* navigation */
+
+.navigation.mobile-menu {
+    margin-left: 0;
+}
+
+header .navigation {
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 98vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 46px;
+    left: 0px;
+    width: 350px;
+    background-color: white;
+    margin-left: -350px;
+    transition: all 1s ease;
+    border-right: 5px solid #e87320;
+}
+
+header .navigation .navImg {
+    margin-bottom: 50px;
+}
+
+header .navigation nav {
+    width: 85%;
+}
+
+header .navigation nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation nav ul li {
+    background-color: #e87320;
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header .navigation nav ul .active {
+    background: rgba(0, 0, 0, 0.262);
+}
+
+header .navigation nav ul li:hover {
+    transition: 0.8s ease;
+    transform: scale(1.1);
+    border-bottom: 5px solid #131c28;
+}
+
+header .navigation nav ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+/* navigation */
+
+/* Header */
+
+
+
+/* main */
+
+main {
+    background-color: #e3e1e1;
+}
+
+main .containerMain {
+    padding: 5% 0;
+    margin-bottom: 0;
+}
+
+main .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content .categorieLeft {
+    width: 32%;
+}
+
+main .content .categorieLeft .card {
+    background-color: white;
+}
+
+.content .categorieLeft .seacrhleft {
+    margin-bottom: 8%;
+    position: relative;
+}
+
+.categorieLeft .seacrhleft .seacrhInp {
+    width: 100%;
+}
+
+.categorieLeft .seacrhleft .searcIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+}
+
+.categorieLeft .categories {
+    margin-bottom: 8%;
+}
+
+.categorieLeft .categories h3 {
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .categories li a {
+    color: #838d9a;
+    font-weight: 600;
+}
+
+.categorieLeft .categories li a:hover {
+    color: #e87320;
+}
+
+.categorieLeft .categories .fourniture li a {
+    font-size: 14px;
+    font-weight: lighter !important;
+}
+
+.categorieLeft .categories .active {
+    color: rgb(232, 115, 32);
+}
+
+.categorieLeft .price {
+    margin-bottom: 8%;
+}
+
+.categorieLeft .price h3 {
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .price .line {
+    padding: 10px 30px;
+    margin-top: 8%;
+}
+
+.categorieLeft .price .ligne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorieLeft .price .ligne hr {
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.categorieLeft .price .line p {
+    color: #838d9a;
+}
+
+.categorieLeft .price .line p span {
+    color: #333c48;
+    font-weight: bold;
+}
+
+.categorieLeft .price .ligne i {
+    color: rgb(233, 84, 20);
+}
+
+.categorieLeft .price .ligne .marronhr {
+    background-color: rgb(242, 79, 9) !important;
+}
+
+.categorieLeft .price .ligne .marronhr1 {
+    background-color: gray;
+}
+
+.categorieLeft .color {
+    margin-bottom: 8%;
+}
+
+.categorieLeft .color h3 {
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .color .couleurs {
+    padding: 10px 30px;
+}
+
+.categorieLeft .color .colors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorieLeft .colorLeft {
+    padding: 0;
+}
+
+.categorieLeft .colorLeft .carre {
+    margin-right: 15px;
+}
+
+.categorieLeft .colorLeft .un {
+    color: #ffa17b;
+}
+
+.categorieLeft .colorLeft .deux {
+    color: #e9967a;
+}
+
+.categorieLeft .colorLeft .troix {
+    color: #fe5757;
+}
+
+.categorieLeft .colorLeft .quatre {
+    color: #1cb6ef;
+}
+
+.categorieLeft .colorLeft .cing {
+    color: #01eeb3;
+}
+
+.categorieLeft .colorLeft .six {
+    color: #8dc63f;
+}
+
+.categorieLeft .colorLeft .seven {
+    color: #c38b4b;
+}
+
+.categorieLeft .colors {
+    color: #333c48;
+    margin-bottom: 2%;
+}
+
+.categorieLeft .size {
+    margin-bottom: 8%;
+}
+
+.categorieLeft .size h3 {
+    padding: 10px 30px;
+    color: #838d9a;
+    font-weight: bold;
+    border-bottom: 1px solid #838d9a;
+}
+
+.categorieLeft .size .containerSize {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorieLeft .size .containerSize span {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 1%;
+    color: #333c48;
+    font-weight: 600;
+}
+
+.categorieLeft .photo {
+    padding: 4%;
+}
+
+.categorieLeft .photo img {
+    width: 100%;
+    height: 285px;
+}
+
+main .content .categorieRight {
+    width: 65%;
+}
+
+.categorieRight .carte {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    margin-bottom: 36px;
+}
+
+.categorieRight .carte a {
+    color: #131c28;
+}
+
+.categorieRight .carte .active {
+    color: #e87320;
+}
+
+.categorieRight .carte i {
+    font-size: 18px;
+}
+
+.categorieRight .produit {
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.categorieRight .produit:hover {
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+
+.categorieRight .produit .imgProduit {
+    width: 100%;
+}
+
+.categorieRight .produit img {
+    width: 100%;
+    height: 100%;
+}
+
+.categorieRight .produit .detailProduit {
+    padding: 0 25px;
+}
+
+.categorieRight .detailProduit .detail1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detailProduit .detail1 h3 {
+    color: #131c28;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detailProduit .detail1 .prix {
+    color: #e87320;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detailProduit .detail1 .rating i {
+    color: #e87320;
+}
+
+.detailProduit .detail1 .rating span {
+    color: #131c28;
+}
+
+.detailProduit .detail2 p {
+    text-align: justify;
+    color: #a2a2a2;
+}
+
+.detailProduit .detail3 {
+    display: flex;
+}
+
+.detailProduit .detail3 .pagin1 {
+    margin-right: 25px;
+}
+
+.detailProduit .detail3 .pagination {
+    background: #cdd1d7;
+    padding: 2%;
+}
+
+.detailProduit .detail3 .pagination li {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.detailProduit .detail3 .pagination .trait {
+    border-right: 1px solid;
+}
+
+.detailProduit .detail3 .pagination li a {
+    color: #131c28;
+}
+
+
+.categorieRight .navigation {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.categorieRight .navigation ul {
+    margin: 0;
+    padding: 8px;
+}
+
+.categorieRight .navigation ul li {
+    border: none;
+}
+
+.categorieRight .navigation li .page-link {
+    border: none;
+    color: #131c28;
+}
+
+
+/* main */
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--bgFooter1);
+}
+
+footer .container {
+    margin-top: 5%;
+}
+
+footer .container h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--titreFooter);
+}
+
+footer .contactus hr {
+    width: 50px;
+    background-color: #f86802 !important;
+    height: 4px;
+    border: none;
+}
+
+footer .contactus .address {
+    display: flex;
+}
+
+.contactus .address .left {
+    width: 40%;
+    font-weight: bold;
+    color: #5c5e60;
+}
+
+.contactus .address .right {
+    width: 60%;
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 .traitCol8 {
+    width: 25%;
+    background-color: rgb(254, 131, 0);
+    border: none;
+    height: 4px;
+}
+
+.contactus1 ul {
+    padding: 0;
+}
+
+.contactus1 ul li a {
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 ul li a:hover {
+    color: #e87320;
+    transform: scale(1.1);
+    transition: 1s ease;
+    margin-left: 5px;
+}
+
+.contactus1 form input {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.contactus1 form button {
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer {
+    border: 1px solid rgba(240, 243, 243, 0.989);
+}
+
+footer .copyRight {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer .copyLeft {
+    padding-top: 10px;
+}
+
+.copyRight img {
+    margin-left: 10px;
+}
+
+footer .footerCopy {
+    background-color: #ffffffba;
+}
+
+/* Footer */
+
+
+
+/* Media queries */
+
+@media(max-width: 900px) {
+
+    /* main */
+
+    main .content {
+        display: block;
+    }
+
+    main .containerMain {
+        margin-top: 40px;
+    }
+
+    main .content .categorieLeft {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    main .content .categorieRight {
+        width: 100%;
+    }
+
+    .categorieRight .produit {
+        display: block;
+        background-color: white;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .categorieRight .produit .imgProduit {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .categorieRight .produit img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .categorieRight .produit .detailProduit {
+        padding: 0px;
+    }
+
+    .categorieRight .produit .detail1 {
+        display: block;
+
+    }
+
+    .categorieRight .produit .detail3 .pagin1 {
+        margin-right: 15px;
+    }
+
+    .footerCopy .copyLeft p {
+        text-align: center;
+    }
+
+    .footerCopy .copyRight {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
