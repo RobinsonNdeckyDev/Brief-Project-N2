@@ -1,7 +1,7 @@
 /* Header */
 header {
     background-color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header .navHeader {
@@ -178,7 +178,7 @@ main .containerBlog{
     height: 35px;
 }
 .entete .number{
-    border: 1px solid #C87163;
+    /* border: 1px solid #C87163; */
     width: 15%;
     height: 34px;
     display: flex;
