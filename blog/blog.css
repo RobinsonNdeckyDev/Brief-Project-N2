@@ -266,9 +266,10 @@ main .containerBlog{
        
         
     }
-    .containerBlog .row{
+    /* .containerBlog .row{
         margin-right: 25% !important;
-    }
+        border: 1px solid red;
+    } */
     .containerBlog .card{
         margin-top: 8%;
         width: 95% !important;
