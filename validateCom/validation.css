@@ -359,4 +359,18 @@ footer .footerCopy {
         justify-content: center;
         margin-bottom: 10px;
     }
+
+    main .sectionImg{
+        border: 1px solid blue;
+        margin-top: 80px;
+        padding: 0;
+    }
+
+    main .sectionImg .sect1Bg .containerImg{
+        padding-bottom: 5px;
+    }
+
+    main .sectionImg .sect1Bg h3{
+        font-size: 20px;
+    }
 }
