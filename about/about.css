@@ -29,7 +29,7 @@ body{
     }
     .couleurimage{
         position: relative;
-        top: -197px;
+        top: -185px;
         width: 100%;
         height: 35vh;
         border: 1px solid #000;
@@ -152,26 +152,30 @@ body{
     .container .card:hover{
         box-shadow: 1px 1px 5px #ccc;
     }
-    @media (max-width: 768px){
+    @media (max-width: 767px){
       
         .main{
-            height: 2390px;
-          
+            height: 2790px; 
         }
+       .couleurimage .titre{
+        margin-top: 15%;
+       }
         .container .containerabout{
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        .container .containerabout{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             height: 55vh;
-            margin-bottom: 75%;
+            margin-bottom: 95%;
+            width: 90%;
         }
-        .containerglobal .container:nth-child(3){
-            display: block;  
+        .container .imageabout{
+            width: 100%;
+        }
+      
+        .container h3{
+            padding-top: 70px ;
+            /* border: 1px solid red; */
         }
         .container .card{
-            margin-bottom: 5%;
+            margin-bottom: 20%;
             width: 98% !important;
         }
         footer{
@@ -179,12 +183,39 @@ body{
         }
 
     }
-    @media (max-width: 1230px){
-       
+    @media screen and (min-width: 768px) and (max-width: 1025px){
+       .main{
+        height: 2200px;
+        border: 1px solid red;
+       }
+       .container .containerabout{
+        /* border: 1px solid red; */
+        height: 50vh;
+        margin-bottom: 95%;
+        width: 90%;
+    }
+        .container h3{
+            margin-top: -70%; 
+        }
+       .containerteamitem{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+        /* margin-top: -40%; */
+       }
        
             
         }
-    
+        @media screen and (min-width: 1026px) and (max-width: 1400px){
+            .main{
+                width: 100%;
+                height: 1800px;
+                border: 1px solid red;
+               }
+            .couleurimage{
+                margin-top: -1%;
+            }
+        }
 
 
 /* main */

@@ -107,15 +107,6 @@ header .navigation nav ul li a{
 /* Header */
 
 
-
-/* main */
-
-
-
-/* main */
-
-
-
 /* Footer */
 
 footer {
@@ -211,6 +202,234 @@ footer .footerCopy {
     background-color: #ffffffba;
 }
 
-/* Footer */
+/* Footer *
+
+/* main */
+main .baniere{
+    height: 300px;
+    background-image: url(../public/images/bg/1.jpg);
+    background-size: cover;
+}
+
+.baniere-text{
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    bottom: 310px;
+    /* margin-top: 200px; */
+
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.cartes{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+.carte{
+    line-height: 23px;
+    height: 550px;
+    background-color: #c08a14;
+}
+.entete .lien a{
+    text-decoration: none;
+    color: #9c9a9aba;
+    font-size: 19px;
+}
+.superieur{
+    position: relative;
+    top: -280px;
+}
+.new{
+    background-color: #c08a14;
+    color: white;
+    width: 90px;
+    border-radius: 4px;
+}
+
+.last_icones{
+    margin: 6px;
+    text-align: center;
+}
 
 
+@media only screen and (max-width: 745px ){
+    main .baniere{
+        height: 105px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .baniere-text{
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 310px;
+    
+    }
+    .showing{
+        display: none;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: auto;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 15px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 75px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (min-width: 746px ) and (max-width: 900px ){
+    main .baniere{
+        height: 200px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .baniere-text{
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 10px;
+        /* margin-top: 200px; */
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 45px;
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: 550px;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 19px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 90px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 901px ){
+    main .baniere{
+        height: 300px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: cover;
+    }
+    
+    .baniere-text{
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 310px;
+        /* margin-top: 200px; */
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: 550px;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 19px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 90px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+}
