@@ -14,19 +14,14 @@ console.log(categorie2);
 
 
 bouton1.addEventListener('click', () => {
-    if(getComputedStyle(categorie1).display != "block"){
-        categorie1.style.display = "block"
-    }else{
-        categorie2.style.display = "none"
-    }
+    bouton1.style.color = "#e87320";
+    categorie2.classList.add("hidden")
 })
 
 
 bouton2.addEventListener('click', () => {
-    if(getComputedStyle(categorie2).display != "block"){
-        categorie2.style.display = "block"
-    }else{
-        categorie1.style.display = "none"
-    }
+    categorie2.style.display="block";
+    categorie1.classList.remove("show");
+    bouton2.style.color = "#e87320";
 })
 
