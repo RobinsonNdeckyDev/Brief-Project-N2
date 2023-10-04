@@ -70,7 +70,9 @@ main  .container-fluid .container .bannerright .texbannerright{
     margin-right: 5%;
     margin-top: 15%;
     margin-left: 3%;
+    
 } 
+
 
 /* bannerleft1 */
 
@@ -245,20 +247,48 @@ main  .container-fluid .container .bannerright .texbannerright{
 
 }
 .card-icon a{
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    color: #5c5e60;
+    font-size: small;
+    padding-right: 7px;
+} 
+.title-blog{
+    width: 20%;
 }
+img:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+/*  */
+
 
 /* end section blog */
 /* section suscribe */
 
 .suscribe .container-suscribe{
-    /* background-color: #ffffff; */
-    box-shadow: 25px 25px 25px  2px #6d6d68;
-    height: 7%;
     position: absolute;
-    margin-bottom: 2%;
+    box-shadow: 0px 0px 10px #000;
+    height: 15%;
+    margin-bottom: 3%;
     margin-left: 5%;
 }
+.suscribe .container-suscribe .input{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 65%;
+    margin-left: 10%;
+    border-bottom: 2px solid #C04;
+}
+.suscribe .container-suscribe .submit-button{
+    color: white;
+    background-color: #C87065;
+    border: 1px solid   #C87065;
+    margin-top: 2%;
+}
+ 
 
 /* end suscribe */
 
@@ -275,7 +305,9 @@ footer{
 
 footer .container{
     margin-top: 5%;
+    padding-top: 5%;
 }
+
 
 footer .container h4{
     font-size: 25px;
