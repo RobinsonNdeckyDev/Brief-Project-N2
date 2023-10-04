@@ -19,7 +19,187 @@ header .headIcon {
 }
 
 /* Header */
+/* main */
 
+main{
+height: 1800px;
+}
+ .couleurimage{
+        position: relative;
+        top: -197px;
+        width: 100%;
+        height: 35vh;
+        border: 1px solid #000;
+        background-color: rgba(0, 0, 0, 0.573); 
+    }
+    .image{
+        color: white;
+    }
+    .image .titre{
+        position: relative;
+        top: 39%;
+        left: 45%;
+        font-weight: bold;
+        margin-right: 50%;
+    }
+    .image a{
+        color: white;
+        position: relative;
+        top: 52%;
+        left: 3%;
+    }
+    .image img{
+    margin-top: -16px;
+    }
+main .containerBlog{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    
+}
+.navmain{
+    border: 1px solid #ccc;
+    height: 2em;
+    box-shadow: 0.1px 1px 5px black;
+}
+.navmain .menu li {
+   margin: 1% 4%;
+}
+.navmain .menu li a{
+    color: rgba(0, 0, 0, 0.322);
+}
+.navmain .menu li a:hover{
+    color: #C8A165;
+}
+.navmain .menu .active {
+    color: #C8A165;
+
+}
+.navmain p{
+    color: rgba(0, 0, 0, 0.76);
+}
+.entete{
+    font-size: 14px;
+    display: flex;
+    height: 35px;
+}
+.entete .number{
+    border: 1px solid #C87163;
+    width: 15%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#C87163 ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.entete .date{
+    color: #C87163;
+    margin-left: 1%;
+    /* border : 1px solid red; */
+    height: 20px;
+    width: 50%;
+
+}
+.texte{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.bottomcard{
+    /* border: 1px solid red; */
+    color: #C87163;
+    font-size: 13px;
+    margin-top: 150px;
+    /* margin-bottom: 90%; */
+}
+.card .image{
+    height: 55%;
+    
+}
+.card:hover{
+    box-shadow: 1px 1px 5px #ccc;
+}
+.pagination{
+    border: 1px solid #ccc;
+    height: 2em;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1px 1px 5px black;  
+}
+.pagination .numeropage{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    
+}
+.pagination .numeropage li a{
+    color: #666666;
+}
+.pagination .numeropage li a:hover{
+    color: #C8A165;
+}
+.pagination .numeropage li a i:hover{
+    color: #C8A165 !important;
+}
+@media (max-width: 767px){
+    main{
+        height: 4500px;
+    } 
+    .containerBlog .navmain {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35%;
+       
+        
+    }
+    .containerBlog .row{
+        margin-right: 25% !important;
+    }
+    .containerBlog .card{
+        margin-top: 8%;
+        width: 95% !important;
+       
+    }
+    .couleurimage{
+        height: 15vh;
+        position: absolute;
+        top: 5%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    main{
+        height: 1900px;
+       
+    } 
+     .containerBlog  .containercard{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -5%;
+     }  
+     .containerBlog .navmain{
+        margin-top: 10%;
+     }
+    
+    #partie3 {
+        display: none;
+    }
+    .pagination{
+        width: 300px;
+        margin-left: 60%;
+    }
+    .couleurimage{
+        height: 15vh;
+        position: absolute;
+        top: 4%;
+    }
+
+}
+/* main */
 
 /* Footer */
 
