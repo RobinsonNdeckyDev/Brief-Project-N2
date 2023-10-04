@@ -1,7 +1,7 @@
 /* Header */
 
 header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header .navHeader{
@@ -20,17 +20,294 @@ header .headIcon{
 
 /* Header */
 
+/* main */
+
+main .container-fluid .container{
+    /* background-color: #F5F4F2; */
+    display: flex;
+    /* padding: 0 10%; */
+}
+main .container-fluid .container .reseauxsociaux {
+    margin-top: 20%;
+
+}
+
+main .container-fluid .container .reseauxsociaux1{
+   
+    margin-top: 20%;
+    padding-left:2%;
+
+}
+main .container-fluid .container  .bannerright{
+    display: flex ;
+    background-color: #F5F4F2; 
+    justify-content: center;
+    align-items: center;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: gray;
+}
+.carousel-control-next-icon{
+    
+    margin-right: 100px;
+        margin-top: 60px;
+}
+.carousel-indicators{
+    /* display: flex; */
+    /* justify-content: end; */
+    /* background-color: red; */
+    /* margin-top: 30%; */
+}
+
+
+
+main .container-fluid .container .bannerright .imagebannerright  img{
+    margin-left: 10%;
+    
+}
+
+main  .container-fluid .container .bannerright .texbannerright{
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-left: 3%;
+    
+} 
+
+
+/* bannerleft1 */
+
+.bannerleft1 .textbannerleft1{
+    position:absolute;
+    left: 10%;
+    top: 44%;
+    /* border: 1px solid red; */
+}
+.bannerleft1 .textbannerleft1 .bouttonBuyNow{
+    border: 1px solid gray;
+    background-color: #F5F4F2;
+
+}
+.bannerleft1 .new{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 20%;
+    margin-left: 1%;
+   
+    
+
+}
+
+.bg-custom {
+    background-color: #C8A165;
+}
+
+
+
+/* end bannerleft1 */
+
+/* bannerleft2 */
+
+.banner-brief {
+    position: absolute;
+    bottom: 1%;
+    left: 12%;
+    width: 17%;
+}
+
+#boutonBuy {
+    border: 1px solid gray;
+    padding: 0 10%;
+    background-color: #F5F4F2;
+}
+#boutonbanner{
+    padding: 0 10%;
+    border: 1px solid gray;
+}
+
+/*  end bannerleft2 */
+
+/* section features product */
+.containergrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+}
+.grid1,.grid2{
+    position: relative;
+}
+.bg-customfeature{
+    position: absolute;
+    background-color:#C8A165;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.bg-customSale {
+    position: absolute;
+    background-color: #C87065;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+}
+.bg-customfeature1 {
+    position: absolute;
+    background-color:#C8A165;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+ .dummy{
+    font-size: small;
+}
+.furniture{
+    font-size: x-small;
+}
+.price{
+    color: #C87065;
+}
+.bg-customnew{
+    background-color: #C8A165;
+}
+.hrtrait{
+    width: 5%;
+    margin: 0  auto;
+    color: #C87065; 
+    
+}
+/* end features  */
+/* discount */
+
+.container-Discount .discount{
+    margin-bottom: 18%;
+    margin-left: 35%;
+
+}
+.discount button{
+    background-color: #C87065;
+    border: 1px solid #C87065;
+    padding: 0 6%;
+    color: white;
+    margin-right: 35%;
+
+}
+.discount h5{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #C87065;
+}
+.promo {
+    border-radius: 50%;
+    background-color: #C87065;
+    width: 8%;
+    height: 20%;
+    margin-bottom:27% ;
+    margin-left: 20%;
+}
+.promo p ,.promo h5{
+    /* width: 15%; */
+    /* height: 10%; */
+    color: white;
+    font-size: small;
+}
+.promo hr{
+    /* background-color: white; */
+}
+
+
+/* end discount */
+
+/* section purchage */
+
+.menuPurchage ul  li{
+    margin-right: 2%;
+    
+  
+}
+.menuPurchage ul li  a{
+    color: black;
+}
+.menuPurchage ul li  .active{
+    color: #C8A165;
+    border-bottom: 2px solid #C8A165;
+    
+}
+.menuPurchage h5{
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 2px solid #C87065; */
+}
+
+
+
+/* end section purchage */
+
+/* section blog  */
+.card-read{
+    color: #C87065;
+
+}
+.card-icon a{
+    /* margin-left: 10%; */
+    color: #5c5e60;
+    font-size: small;
+    padding-right: 7px;
+} 
+.title-blog{
+    width: 20%;
+}
+img:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+/*  */
+
+
+/* end section blog */
+/* section suscribe */
+
+.suscribe .container-suscribe{
+    position: absolute;
+    box-shadow: 0px 0px 10px #000;
+    height: 15%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.suscribe .container-suscribe .input{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 65%;
+    margin-left: 10%;
+    border-bottom: 2px solid #C04;
+}
+.suscribe .container-suscribe .submit-button{
+    color: white;
+    background-color: #C87065;
+    border: 1px solid   #C87065;
+    margin-top: 2%;
+}
+ 
+
+/* end suscribe */
+
+
+/* end main */
+
 
 /* Footer */
 
 footer{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: var(--bgFooter1);
 }
 
 footer .container{
     margin-top: 5%;
+    padding-top: 5%;
 }
+
 
 footer .container h4{
     font-size: 25px;
