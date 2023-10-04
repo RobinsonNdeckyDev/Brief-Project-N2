@@ -109,6 +109,32 @@ footer .footerCopy {
     border: 1px solid white;
     /* margin-top: 20px; */
 }
+
+
+.container-fluid .text_baniere{
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    bottom: 310px;
+}
+.container-fluid h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.container-fluid p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: -50pc;
+    
+}
 main .first_section a{
     text-decoration: none;
     background-color: white;
@@ -116,6 +142,11 @@ main .first_section a{
     padding: 25px;
     width: 300px;
     margin-top: 20px;
+}
+main .first_section a:hover{
+    transform: scale(1.2);
+    background-color: #C8A165;
+    color: white;
 }
 main .first_section .active{
     background-color: #C8A165;
@@ -128,6 +159,7 @@ main tbody .quantity p{
     width: 45px;
     border: 3px solid white;
     text-align: center;
+    
 
 }
 main .fa-xmark{
@@ -177,10 +209,163 @@ h5{
 }
 
 /* media queries */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     .pricipal{
+       border: 1px solid white;
+   }
+   
+.container-fluid .text_baniere{
+   height: 60px;
+   background-color: rgba(0, 0, 0, 0.4);
+   position: relative;
+   bottom: 60px;
+   width: 600px;
+} 
+.container-fluid h1{
+   font-weight: bold;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+   position: relative;
+   top: 21px;
+   left: -90px;
+}
+.container-fluid p{
+   font-size: 13px;
+   font-weight: bold;
+   color: white;
+   text-align: center;
+   position: relative;
+   top: 9px;
+   left: -14pc;
+   
+}
+
+   main .first_section{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+   }
+ 
+   
+   main tbody .quantity p{
+       background-color: var(--bgFooter1);
+       height: 15%;
+       width: 45px;
+       border: 3px solid white;
+       text-align: left;
+   
+   }
+   /* main .fa-xmark{
+       background-color: var(--bgFooter1);
+       height: 15%;
+       width: 40px;
+       text-align: center;
+   
+   } */
+   /* main table{
+       overflow-x: auto;
+
+   } */
+   
+   tbody{
+       border: 2px solid white;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       background-color: #ac0d0d;
+       overflow: visible;
+   }
+   /* .table_th{
+       display: block;
+       align-items: center;
+       text-align: center;
+   }
+   .table_tr{
+       display: block;
+       align-items: center;
+       margin-bottom: 40px;
+   }
+   .table_td{
+       display: block;
+       align-items: center;
+       text-align: center;
+
+   } */
+
+   .third_section{
+       display: grid;
+       grid-template-columns: 100% ;
+       gap: 20px;
+       height: auto;
+       margin-bottom: 30px;
+   
+   }
+   .card{
+       height: auto;
+       line-height: 10px;
+       border: none;
+   }
+   h5{
+       font-weight: bolder;
+   }
+   .traitCarte{
+       width: 100px;
+       border: 3px solid #ac0d0d;
+   }
+   .order_total{
+       font-size: 20px;
+       color: #dc3545;
+   }
+   .four_section .form-control{
+       width: 30%;
+   }
+   .four_section .card{
+           height: auto;
+           margin-bottom: 30px;
+   }
+   .btn{
+       width: auto;
+       font-size: 10px;
+   }
+
+}
+
+@media screen and (min-width: 602px){
+     .pricipal{
         border: 1px solid white;
     }
+    
+.container-fluid .text_baniere{
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    bottom: 120px;
+    width: 900px;
+} 
+.container-fluid h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+.container-fluid p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: -20pc;
+    
+}
+.imge{
+   
+    
+}
     main .first_section{
         flex-direction: column;
         justify-content: center;
@@ -292,6 +477,32 @@ h5{
         border: 1px solid white;
         /* margin-top: 20px; */
     }
+    
+.container-fluid .text_baniere{
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    bottom: 220px;
+    width: 1400px;
+}
+.container-fluid h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.container-fluid p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -32pc;
+    
+}
     main .first_section a{
         text-decoration: none;
         background-color: white;
