@@ -120,6 +120,10 @@ main .container-fluid .container{
     /* background-color: #F5F4F2; */
     display: flex;
     /* padding: 0 10%; */
+    /* border: 1px solid red; */
+}
+.section1{
+    border: 1px solid red;
 }
 main .container-fluid .container .reseauxsociaux {
     margin-top: 20%;
@@ -521,7 +525,12 @@ footer .footerCopy {
             display: grid;
             grid-template-columns: auto auto ;
           } 
-  
+          .ndeye{
+            display: grid;
+            grid-template-columns: auto auto ;
+          }
+      }      
+/*   
         .footerCopy .copyLeft p {
         text-align: center;
     }
@@ -530,4 +539,4 @@ footer .footerCopy {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
-    }
+    } */
