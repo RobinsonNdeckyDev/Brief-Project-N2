@@ -316,6 +316,16 @@ h1{
         text-align: center;
     }
 
+        .footerCopy .copyLeft p {
+            text-align: center;
+        }
+    
+        .footerCopy .copyRight {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
 }
 
 
