@@ -12,21 +12,20 @@ console.log(categorie2);
 
 // Ma fonction show et hide
 
+categorie2.classList.add("hidden");
 
 bouton1.addEventListener('click', () => {
-    if(getComputedStyle(categorie1).display != "block"){
-        categorie1.style.display = "block"
-    }else{
-        categorie2.style.display = "none"
-    }
+    bouton1.style.color = "#e87320";
+    categorie2.classList.add("hidden");
+    categorie1.classList.remove("hidden");
+    bouton2.style.color = "black";
 })
 
 
 bouton2.addEventListener('click', () => {
-    if(getComputedStyle(categorie2).display != "block"){
-        categorie2.style.display = "block"
-    }else{
-        categorie1.style.display = "none"
-    }
+    categorie2.classList.remove("hidden");
+    categorie1.classList.add("hidden");
+    bouton2.style.color = "#e87320";
+    bouton1.style.color = "black";
 })
 
