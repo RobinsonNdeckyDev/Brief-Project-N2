@@ -1,7 +1,7 @@
 /* Header */
 header {
     background-color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header .navHeader {
@@ -178,7 +178,7 @@ main .containerBlog{
     height: 35px;
 }
 .entete .number{
-    border: 1px solid #C87163;
+    /* border: 1px solid #C87163; */
     width: 15%;
     height: 34px;
     display: flex;
@@ -213,6 +213,22 @@ main .containerBlog{
 }
 .card:hover{
     box-shadow: 1px 1px 5px #ccc;
+}
+.cardimage .hidden{
+    display: none;
+}
+
+.card:hover .hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    /* border: 1px solid red; */
+   position: absolute;
+   top: 42%;
+   height: 5vh;
+   width: 92.5%;
+   background-color: rgba(255, 255, 255, 0.735);
 }
 .pagination{
     border: 1px solid #ccc;
