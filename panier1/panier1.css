@@ -212,509 +212,18 @@ footer .footerCopy {
 /* Footer */
 
 
-/* media queries */
-
-@media(max-width: 900px){
-    .footerCopy .copyLeft p {
-        text-align: center;
-    }
-    
-    .footerCopy .copyRight {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-}
-
-/* Footer */
-
-
-/* main */
-.pricipal{
-    /* height: 300%; */
-    border: 1px solid white;
-    /* margin-top: 20px; */
-}
-
-
-.container-fluid .text_baniere{
-    height: 310px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
-    bottom: 310px;
-}
-.container-fluid h1{
-    font-weight: bold;
-    font-size: 60px;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 100px;
-}
-.container-fluid p{
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: -50pc;
-    
-}
-main .first_section a{
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    padding: 25px;
-    width: 300px;
-    margin-top: 20px;
-}
-main .first_section a:hover{
-    transform: scale(1.2);
-    background-color: #C8A165;
-    color: white;
-}
-main .first_section .active{
-    background-color: #C8A165;
-    color: white;
-}
-
-main tbody .quantity p{
-    background-color: var(--bgFooter1);
-    height: 15%;
-    width: 45px;
-    border: 3px solid white;
-    text-align: center;
-    
-
-}
-main .fa-xmark{
-    background-color: var(--bgFooter1);
-    height: 15%;
-    width: 40px;
-    /* border: 4px solid white; */
-    text-align: center;
-
-}
-
-
-tbody{
-    border: 2px solid white;
-}
-.third_section{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
-    height: 500px;
-
-}
-.card{
-    height: 400px;
-    line-height: 10px;
-    border: none;
-}
-h5{
-    font-weight: bolder;
-}
-.traitCarte{
-    width: 100px;
-    border: 3px solid #ac0d0d;
-}
-.order_total{
-    font-size: 30px;
-    color: #dc3545;
-}
-.four_section .form-control{
-    width: 30%;
-}
-.four_section .card{
-        height: 300px;
-        margin-bottom: 30px;
-
-
-}
-
-/* media queries */
-@media screen and (max-width: 600px){
-    .pricipal{
-       border: 1px solid white;
-   }
-   
-.container-fluid .text_baniere{
-   height: 60px;
-   background-color: rgba(0, 0, 0, 0.4);
-   position: relative;
-   bottom: 60px;
-   width: 600px;
-} 
-.container-fluid h1{
-   font-weight: bold;
-   font-size: 20px;
-   color: white;
-   text-align: center;
-   position: relative;
-   top: 21px;
-   left: -90px;
-}
-.container-fluid p{
-   font-size: 13px;
-   font-weight: bold;
-   color: white;
-   text-align: center;
-   position: relative;
-   top: 9px;
-   left: -14pc;
-   
-}
-
-   main .first_section{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-
-   }
- 
-   
-   main tbody .quantity p{
-       background-color: var(--bgFooter1);
-       height: 15%;
-       width: 45px;
-       border: 3px solid white;
-       text-align: left;
-   
-   }
-   /* main .fa-xmark{
-       background-color: var(--bgFooter1);
-       height: 15%;
-       width: 40px;
-       text-align: center;
-   
-   } */
-   /* main table{
-       overflow-x: auto;
-
-   } */
-   
-   tbody{
-       border: 2px solid white;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       background-color: #ac0d0d;
-       overflow: visible;
-   }
-   /* .table_th{
-       display: block;
-       align-items: center;
-       text-align: center;
-   }
-   .table_tr{
-       display: block;
-       align-items: center;
-       margin-bottom: 40px;
-   }
-   .table_td{
-       display: block;
-       align-items: center;
-       text-align: center;
-
-   } */
-
-   .third_section{
-       display: grid;
-       grid-template-columns: 100% ;
-       gap: 20px;
-       height: auto;
-       margin-bottom: 30px;
-   
-   }
-   .card{
-       height: auto;
-       line-height: 10px;
-       border: none;
-   }
-   h5{
-       font-weight: bolder;
-   }
-   .traitCarte{
-       width: 100px;
-       border: 3px solid #ac0d0d;
-   }
-   .order_total{
-       font-size: 20px;
-       color: #dc3545;
-   }
-   .four_section .form-control{
-       width: 30%;
-   }
-   .four_section .card{
-           height: auto;
-           margin-bottom: 30px;
-   }
-   .btn{
-       width: auto;
-       font-size: 10px;
-   }
-
-}
-
-@media screen and (min-width: 602px){
-     .pricipal{
-        border: 1px solid white;
-    }
-    
-.container-fluid .text_baniere{
-    height: 120px;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: relative;
-    bottom: 120px;
-    width: 900px;
-} 
-.container-fluid h1{
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 45px;
-}
-.container-fluid p{
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 50px;
-    left: -20pc;
-    
-}
-.imge{
-   
-    
-}
-    main .first_section{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /* main .first_section a{
-        text-decoration: none;
-        background-color: white;
-        color: black;
-        padding: 25px;
-        width: 300px;
-        margin-top: 20px;
-    }
-    main .first_section .active{
-        background-color: #C8A165;
-        color: white;
-    } */
-    
-    main tbody .quantity p{
-        background-color: var(--bgFooter1);
-        height: 15%;
-        width: 45px;
-        border: 3px solid white;
-        text-align: left;
-    
-    }
-    /* main .fa-xmark{
-        background-color: var(--bgFooter1);
-        height: 15%;
-        width: 40px;
-        text-align: center;
-    
-    } */
-    /* main table{
-        overflow-x: auto;
-
-    } */
-    
-    tbody{
-        border: 2px solid white;
-        /* margin: 0px; */
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: #ac0d0d;
-        overflow: visible;
-        /* overflow-X:text-align ; */
-    }
-    /* .table_th{
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    .table_tr{
-        display: block;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    .table_td{
-        display: block;
-        align-items: center;
-        text-align: center;
-
-    } */
-
-    .third_section{
-        display: grid;
-        grid-template-columns: 100% ;
-        gap: 20px;
-        height: auto;
-        margin-bottom: 30px;
-    
-    }
-    .card{
-        height: auto;
-        line-height: 10px;
-        border: none;
-    }
-    h5{
-        font-weight: bolder;
-    }
-    .traitCarte{
-        width: 100px;
-        border: 3px solid #ac0d0d;
-    }
-    .order_total{
-        font-size: 20px;
-        color: #dc3545;
-    }
-    .four_section .form-control{
-        width: 30%;
-    }
-    .four_section .card{
-            height: auto;
-            margin-bottom: 30px;
-    }
-    .btn{
-        width: auto;
-        font-size: 10px;
-    }
-
-}
-
-
-
-@media screen and (min-width: 901px){
-    .pricipal{
-        /* height: 300%; */
-        border: 1px solid white;
-        /* margin-top: 20px; */
-    }
-    
-.container-fluid .text_baniere{
-    height: 220px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
-    bottom: 220px;
-    width: 1400px;
-}
-.container-fluid h1{
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 100px;
-}
-.container-fluid p{
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 100px;
-    left: -32pc;
-    
-}
-    main .first_section a{
-        text-decoration: none;
-        background-color: white;
-        color: black;
-        padding: 25px;
-        width: 300px;
-        margin-top: 20px;
-    }
-    main .first_section .active{
-        background-color: #C8A165;
-        color: white;
-    }
-    
-    main tbody .quantity p{
-        background-color: var(--bgFooter1);
-        height: 15%;
-        width: 45px;
-        border: 3px solid white;
-        text-align: center;
-    
-    }
-    main .fa-xmark{
-        background-color: var(--bgFooter1);
-        height: 15%;
-        width: 40px;
-        /* border: 4px solid white; */
-        text-align: center;
-    
-    }
-    
-    
-    tbody{
-        border: 2px solid white;
-    }
-    .third_section{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 20px;
-        height: 500px;
-    
-    }
-    .card{
-        height: 400px;
-        line-height: 10px;
-        border: none;
-    }
-    h5{
-        font-weight: bolder;
-    }
-    .traitCarte{
-        width: 100px;
-        border: 3px solid #ac0d0d;
-    }
-    .order_total{
-        font-size: 30px;
-        color: #dc3545;
-    }
-    .four_section .form-control{
-        width: 30%;
-    }
-    .four_section .card{
-            height: 300px;
-            margin-bottom: 30px;
-    
-    
-    }
-    
-
-
-}
-
-
-
-
 /* panier css code link */
 main .sectionImg {
     background-image: url(../public/images/bg/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 0;
+    margin-top: 45px;
 }
 
 main .sect1Bg {
-    background: #000306a6;
-    padding-top: 7%;
+    background: #0003063e;
     margin: 0;
+    border: 1px solid red;
 }
 
 .sectionImg .containerImg h3 {
@@ -724,13 +233,13 @@ main .sect1Bg {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom: 7%;
+    margin-top: 6%;
+    margin-bottom: 5%;
 }
 
 .sectionImg .containerImg p {
     color: white;
     font-weight: 600;
-    padding-bottom: 1%;
 }
 
 /* .section2 {
@@ -762,4 +271,132 @@ main .sect1Bg {
     background-color: #db9320;
     color: white;
 }
+
+.section4 .ctns{
+    background-color: white;
+    padding: 5%;
+}
+
+.section4{
+    margin-bottom: 3%;
+}
+
+.section4 .ctns1 hr{
+    width: 20%;
+    border: none;
+    background-color: #e87320;
+    height: 4px;
+}
+
+.section4 .ctns .left{
+    padding-left: 30px;
+}
+
+.section4 .ctns1 h3{
+    text-decoration: underline solid 4px #e87320;
+    text-underline-offset: 10px;
+    margin-bottom: 6%;
+} 
+
+.section4 .ctns1 form p{
+    margin-bottom: 20px;
+}
+
+.section4 .ctns1 form button{
+    background: #e87320;
+    margin-top: 3%;
+    margin-bottom: 17px;
+    padding: 6px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section5{
+    padding-bottom: 3%;
+}
+
+.section5 .contForm{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.section5 h3{
+    color: #131c28;
+    font-weight: bold;
+    text-decoration: underline 4px #f86802;
+    text-underline-offset: 10px;
+    margin-bottom: 2%;
+}
+
+.section5 button{
+    background: #e87320;
+        margin-bottom: 17px;
+        padding: 6px 30px;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+}
+
+.section5 .row1{
+    margin: 2px;
+    padding: 2%;
+    background: white;
+}
+
+
+.section5 .ctns5 hr {
+    width: 20%;
+    border: none;
+    background-color: #e87320;
+    height: 4px;
+}
+
+.section5 .ctns5 h3 {
+    text-decoration: underline solid 4px #e87320;
+    text-underline-offset: 10px;
+    margin-bottom: 6%;
+}
+
+.section5 .ctns5 form p {
+    margin-bottom: 20px;
+}
+
+.section5 .ctns5 form button {
+    background: #e87320;
+    margin-top: 3%;
+    margin-bottom: 17px;
+    padding: 6px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
 /* panier css code link */
+
+
+
+
+/* media queries */
+
+@media(max-width: 900px) {
+
+    /* Section2 */
+    .section2 .cartesContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .footerCopy .copyLeft p {
+        text-align: center;
+    }
+
+    .footerCopy .copyRight {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
