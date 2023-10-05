@@ -116,6 +116,7 @@ header .navigation nav ul li a {
 
 main{
 height: 1800px;
+
 }
  .couleurimage{
         position: relative;
@@ -151,6 +152,11 @@ main .containerBlog{
     margin: 0 auto;
     
 }
+main .containercard{
+    width: 100%;
+    height: 75%;
+    margin: 0 auto;
+}
 .navmain{
     border: 1px solid #ccc;
     height: 2em;
@@ -178,7 +184,7 @@ main .containerBlog{
     height: 35px;
 }
 .entete .number{
-    /* border: 1px solid #C87163; */
+    border: 1px solid #C87163;
     width: 15%;
     height: 34px;
     display: flex;
@@ -262,17 +268,14 @@ main .containerBlog{
     .containerBlog .navmain {
         display: flex;
         flex-direction: column;
-        margin-top: 35%;
+        margin-top: 45%;
        
         
     }
-    /* .containerBlog .row{
-        margin-right: 25% !important;
-        border: 1px solid red;
-    } */
+
     .containerBlog .card{
         margin-top: 8%;
-        width: 95% !important;
+       
        
     }
     .couleurimage{
@@ -292,7 +295,7 @@ main .containerBlog{
         margin-left: -5%;
      }  
      .containerBlog .navmain{
-        margin-top: 10%;
+        margin-top: 20%;
      }
     
     #partie3 {
