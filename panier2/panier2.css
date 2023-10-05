@@ -139,7 +139,9 @@ main .container .first_section .active{
 thead-primary{
     margin-left: 5px;
 }
-
+th{
+    box-shadow: 0px 0px 10px #000;
+}
 main tbody .quantity p{
     background-color: var(--bgFooter1);
     height: 15%;
