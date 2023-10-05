@@ -13,16 +13,39 @@
 
 <body>
     <!-- header -->
-     <header class="mb-3">
+    <header class="mb-3 fixed-top">
         <div class="container-fluid d-flex justify-content-between align-content-center px-5">
             <div class="navBurger headIcon">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid hamburger fa-bars"></i>
             </div>
+    
+            <div class="navigation mobile-menu">
+                <div class="navImg">
+                    <a href="../accueil/accueil1.html"><img src="../public/images/logo/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../accueil/accueil1.html">Accueil</a></li>
+                        <li><a href="../about/about.html">A propos</a></li>
+                        <li><a href="../categories-1/categorie.html">Catégories et Accessoires</a>
+                            <!-- <ul class="categ">
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                            </ul> -->
+                        </li>
+                        <li><a href="../produit/produit.html">Produit</a></li>
+                        <li><a href="../blog/blog.html">Blog</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
             <div class="navHeader">
-                <img src="../public/images/logo/logo.png" alt="" class="logo">
+                <a href="../accueil/accueil.html"><img src="../public/images/logo/logo.png" alt="" class="logo"></a>
             </div>
             <div class="navShop headIcon">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="../panier1/panier1.html"><i class="fa-solid fa-cart-shopping"></i><span
+                        class="badge text-bg-danger">2</span></a>
             </div>
         </div>
     </header> 
@@ -30,172 +53,158 @@
     <!-- main -->
     <main class=" pricipal bg-light  ">
 
-        <div class="container-fluid">
-            <div class="imge">
-                <img src="../public/images/bg/1.jpg" width="100%" alt="">
-            </div>
-            <div class="text_baniere">
-                <h1>SHOPPING CART</h1>
-                <p>Home   /   Sopping cart</p>
-            </div>
-                
-        </div>
-       <div class="container mt-5">
-
-            <div class=" first_section d-flex justify-content-between text-center ">
-                <!-- <a class="active" href="#shopping-cart" data-bs-toggle="tab" aria-selected="true" role="tab">shopping cart</a>   -->
-                        <a class="active" href="#">SHOPPING CART</a>
-                        <a href="#">WISHLIST</a>
-                        <a href="#">CHECK OUT</a>
-                        <a href="#">ORDER COMPLETE</a>
-            </div>
-
-
-             <div class="second-section mt-5 bg-white">
-                        <table>
-                    
-                            <tbody>
-                            <tr class="table_tr">
-                                <th class="table_th" scope="row"><a href=""><img src="../public/images/product/2.jpg" height="200px" width="90%" alt=""></a></th>
-                                <td class="table_td">
-                                    <h4  class="text mt-5 ">DUMMY PRODUCT NAME</h4>
-                                    <p class="m-3">Color:black <br> Size:SL</p>
-                                </td>
-                                <td class="table_td" ><p  class="price mt-0fw-bolder">$56.00</p></td>
-
-                                <td  class=" table_td quantity d-flex mt-5 "> 
-                                    <P>-</P> 
-                                    <P>02</P>
-                                    <P>+</P>
-                                </td>
-
-                                <td class="table_td"><p class="total mt-5 fw-bolder"  >$112.00</p></td>
-
-                                <td class="table_td"><p <i class="fa-solid fa-xmark mt-5 " style="color: #19191a;"></i> </p>
-                                </td>
-
-
-                            </tr>
-
-                            <tr class="table_tr">
-                                <th class="table_th"scope="row"><a href=""><img src="../public/images/product/12.jpg" height="200px" width="90%" alt=""></a></th>
-                                <td class="table_td">
-                                    <h4  class="text mt-5 ">DUMMY PRODUCT NAME</h4>
-                                    <p class="m-3">Color:black <br> Size:SL</p>
-                                </td>
-                                <td class="table_td"><p  class="price mt-5 fw-bolder">$56.00</p></td>
-
-                                <td  class=" table_td quantity d-flex mt-5 "> 
-                                    <P>-</P> 
-                                    <P>02</P>
-                                    <P>+</P>
-                                </td>
-
-                                <td class="table_td"><p class="total mt-5 fw-bolder"  >$112.00</p></td>
-
-                                <td class="table_td"><p <i class="fa-solid fa-xmark mt-5 " style="color: #19191a;"></i> </p>
-                                </td>
-
-
-                            </tr>
-
-                            <tr class="table_tr">
-                                <th class="table_th" scope="row"><a href=""><img src="../public/images/product/6.jpg" height="200px" width="90%" alt=""></a></th>
-                                <td>
-                                    <h4  class="text mt-5 ">DUMMY PRODUCT NAME</h4>
-                                    <p class="m-3">Color:black <br> Size:SL</p>
-                                </td>
-                                <td class="table_td" ><p  class="price mt-5 fw-bolder">$56.00</p></td>
-
-                                <td  class=" table_td quantity d-flex mt-5 "> 
-                                    <P>-</P> 
-                                    <P>02</P>
-                                    <P>+</P>
-                                </td>
-
-                                <td><p class="total mt-5 fw-bolder"  >$112.00</p></td>
-
-                                <td class="table_td"><p <i class="fa-solid fa-xmark mt-5 " style="color: #19191a;"></i> </p>
-                                </td>
-
-
-                            </tr>
-                            
-                            </tbody>
-                        </table>
-            </div>
-
-          
-            <div class="third_section bg-light mt-5 mb_5">
-                <div class="card bg-white mt-5 p-5 ">
-                        <h5 class="card-title">COUPON DISCOUNT</h5>
-                        <hr class="traitCarte">
-                        <p class="card-text">Enter your coupon code if you have one!</p>
-                        <br>
-                    <input type="email" class="form-control bg-light" placeholder="Enter your code here.">
-                    <br> <br> <br>
-                        <a href="#" class="btn btn-danger w-50">APPLY COUPON</a>
-                    
+            <!-- section Img -->
+            <section class="section1 sectionImg">
+            <div class="container-fluid sect1Bg">
+                <div class="containerImg">
+                    <h3>Shopping Cart</h3>
+                    <p>Home &nbsp; / &nbsp;<span>shopping cart</span></p>
                 </div>
+            </div>
+            </section>
 
-                <div class="card bg-white mt-5 p-5">
-                    <h5>PAYMENT DETAILS</h5>
-                    <hr class="traitCarte">
-
-                        <div class="textchiffre d-flex justify-content-between" >
-                            <p>Carte Septoral</p>
-                            <p>$155.00</p>
-                        </div>
-                        <hr>
-
-                        <div class="textchiffre d-flex justify-content-between" >
-                            <p>Carte Septoral</p>
-                            <p>$15.00</p>
-                        </div>
-                        <hr>
-
-                        <div class="textchiffre d-flex justify-content-between" >
-                            <p>Vat</p>
-                            <p>$00.00</p>
-                        </div>
-                        <hr>
-
-                        <div class="order_total textchiffre d-flex justify-content-between " >
-                            <p>Order Total</p>
-                            <p>$170.00</p>
-                        </div>
+            <!-- section carte -->
+            <section class="container section2">
+            <div class="cartesContainer ">
+                <div class="card checkout">
+                    <span>Shopping Cart</span>
                 </div>
-
+                <div class="card">
+                    <span>Wishlist</span>
+                </div>
+                <div class="card">
+                    <span>Checkout</span>
+                </div>
+                <div class="card">
+                    <span>Order Completed</span>
+                </div>
             </div>
+            </section>
 
-            <div class="four_section ">
-                <div class="card bg-white mt-1 p-5 ">
-                    <h5 class="card-title">CULCULATE SHIPPING</h5>
-                    <hr class="traitCarte">
-                    <p class="card-text">Enter your coupon code if you have one!</p>
-                    <br>
-                        <div class="entrer d-flex justify-content-between">
-                            <input type="text" class="form-control bg-light"  placeholder="contry">
-                            <input type="text" class="form-control bg-light"  placeholder="Region/State">
-                            <input type="number" class="form-control bg-light"  placeholder="Post code">
+            <!-- section panier -->
+            <section class="container sectionPanier panier section3">
+                <table class="table">
+                    <!-- <tr class="row">
+                        <td class="col-12 col-md-2"><img src="../public/images/product/6.jpg" alt=""></td>
+                        <td class="col-12 col-md-2"></td>
+                        <td class="col-12 col-md-2"></td>
+                        <td class="col-12 col-md-2"></td>
+                        <td class="col-12 col-md-2"></td>
+                        <td class="col-12 col-md-2"></td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </section>
 
+            <!-- section paie -->
+            <section class="container sectionPaie section4">
+                <div class="row ">
+                    <div class="col-12 col-md-6">
+                        <div class="ctns ctns1">
+                            <h3>Coupon Discount</h3>
+                            <form action="">
+                                <p>Enter your coupon codeif you have one</p>
+                                <input type="text" class="form-control bg-light-subtle" placeholder="Enter your code here.">
+                                <button class="btn" type="button">Apply coupon</button>
+                            </form>
                         </div>
+                    </div>
 
-                <br> <br> <br>
-                    <a href="#" class="btn btn-danger w-25">GET A QUOTE</a>
-                
-            </div>
+                    <div class="col-12 col-md-6">
+                        <div class="ctns car2 ctns2">
+                            <h3>Payment Details</h3>
+                            <table class="table">
+                                <tr>
+                                    <td class="left">Cart Subtotal</td>
+                                    <td class="text-end">$155.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Cart Subtotal</td>
+                                    <td class="text-end">$15.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vat</td>
+                                    <td class="text-end">$00.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="order left">Order Total</td>
+                                    <td class="text-end order">$170.00</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            </div>
-        </div>
-
+            <!-- section calculate -->
+            <section class="container sectionPaie section5">
+                <div class="row row1">
+                    <div class="col-12">
+                        <div class="ctns ctn5">
+                            <h3>Calculate Shipping</h3>
+                            <p>Enter your coupon codeif you have one</p>
+                            <form action="">
+                                <div class="contForm row">
+                                    <div class="col-12 col-md-4">
+                                        <input type="text" class="form-control" placeholder="Country">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <input type="text" class="form-control" placeholder="Region/State">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <input type="text" class="form-control" placeholder="Post Code">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn">Get Aquote</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="container sectionCalculate section5">
+                <div class="row border">
+                    <div class="col-12 border">
+                        <h3>Calculate Shipping</h3>
+                        <p>Enter your coupon codeif you have one</p>
+                        <form action="">
+                            <div class="contForm">
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Country">
+                                </div>
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Region/State">
+                                </div>
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Post Code">
+                                </div>
+                            </div>
+                            <button type="button" class="btn">Get Aquote</button>
+                        </form>
+                    </div>
+                </div>
+            </section> -->
     </main>
 
     <!-- footer -->
-     <footer>
+    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 contactus">
+                <div class="col-12 col-sm-12 col-lg-4 contactus">
                     <h4>CONTACT US</h4>
                     <hr>
                     <div class="address">
@@ -206,7 +215,7 @@
                             <p>28 Green Tower, Street Name, <br> New York City, USA</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Cell-Phone:</p>
@@ -215,7 +224,7 @@
                             <p>012345 - 123456789</p>
                         </div>
                     </div>
-
+    
                     <div class="address">
                         <div class="left">
                             <p>Email :</p>
@@ -225,10 +234,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-8 contactus1">
+    
+                <div class="col-12 col-sm-12 col-lg-8 contactus1">
                     <div class="row">
-                        <div class="col-12 col-md-3">
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>ACCOUNTS</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -239,8 +248,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Check Out</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-3">
+    
+                        <div class="col-12 col-sm-12 col-lg-3">
                             <h4>SHIPPING</h4>
                             <hr class="traitCol8">
                             <ul>
@@ -251,8 +260,8 @@
                                 <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Specials</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-12 col-md-6">
+    
+                        <div class="col-12 col-sm-12 col-lg-5">
                             <h4>EMAIL NEWSLETTERS</h4>
                             <hr class="traitCol8">
                             <form action="">
@@ -260,14 +269,13 @@
                                 <button type="button" class="btn">SUBSCRIBE</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="footerCopy">
             <div class="container">
-                <div class="row border d-flex justify-content-between">
+                <div class="foot row d-flex justify-content-between">
                     <div class="col-12 col-md-6 copyLeft">
                         <p>CodeCarnival 2021. All Rights Reserved.</p>
                     </div>
@@ -280,7 +288,7 @@
                 </div>
             </div>
         </div>
-    </footer> 
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
