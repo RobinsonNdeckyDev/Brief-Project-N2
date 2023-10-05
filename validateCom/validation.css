@@ -169,7 +169,13 @@ main .sect1Bg {
 
 .section2 .cartesContainer .checkout {
     background-color: #db9320;
-    color: white;
+}
+.section2 .cartesContainer .checkout a{
+    color: white ;
+
+}
+.section2 .cartesContainer .card a{
+    color:  rgba(0, 0, 0, 0.32);
 }
 
 

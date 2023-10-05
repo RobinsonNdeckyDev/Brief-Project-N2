@@ -112,7 +112,9 @@ header .navigation nav ul li a {
 /* navigation */
 
 /* Header */
-
+.card a{
+    color: rgba(0, 0, 0, 0.32);
+}
 
 /* Footer */
 
