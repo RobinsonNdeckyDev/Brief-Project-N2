@@ -221,6 +221,7 @@ body{
         color: rgba(0, 0, 0, 0.445);
         font-size: 12px;
         margin-left: 26%;
+    
     }
     .container .job3{
         color: rgba(0, 0, 0, 0.445);
@@ -252,26 +253,36 @@ body{
         .main{
             height: 2790px; 
         }
+        .img-responsive{
+            height: 20vh;
+        }
         .couleurimage{
-            height: 15vh;
-            margin-top: 32%;
+            height: 20vh;
+            margin-top: 2%;
         }
        .couleurimage .titre{
         margin-top: 5%;
        }
         .container .containerabout{
-            /* border: 1px solid red; */
-            height: 55vh;
-            margin-bottom: 95%;
+            /* border: 3px solid red; */
+            height: 50vh;
             width: 90%;
         }
         .container .imageabout{
+            display: none;
+        }
+        .texteabout{
             width: 100%;
+            height: auto;
+            /* border: 3px solid red; */
+            position: absolute;
+            top: 30%;
+            left: -2%;
+            
         }
       
-        .container h3{
-            padding-top: 70px ;
-            /* border: 1px solid red; */
+        .containerglobal .container:nth-child(2){
+            margin-top: -25%;
         }
         .container .card{
             margin-bottom: 20%;
@@ -283,18 +294,21 @@ body{
             
         }
         footer{
-            margin-top: 100%;
+            margin-top: 50%;
         }
 
     }
     @media screen and (min-width: 768px) and (max-width: 1025px){
        .main{
         height: 2200px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
        }
+       .img-responsive{
+        height: 24vh;
+    }
        .couleurimage{
         height: 20vh;
-        margin-top: 8.5%;
+        /* margin-top: 8.5%; */
        }
        .container .containerabout{
         /* border: 1px solid red; */
